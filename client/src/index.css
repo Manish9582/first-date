@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  /* PRIMARY */
+  --primary-main: #FF5252;
+  /* Warm, romantic accent */
+  --primary-soft: #FFCDD2;
+  --secondary: #FF8A80;
+
+  /* BACKGROUND */
+  --bg-light: #FFF7F7;
+  --bg-card: #FFFFFF;
+  --bg-muted: #F4F4F4;
+
+  /* TEXT */
+  --text-dark: #1A202C;
+  --text-medium: #4A5568;
+  --text-light: #718096;
+
+  /* BORDERS & SHADOW */
+  --border-light: #E2E8F0;
+  --shadow-soft: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #FDF2F8;
+}
+#HomebgImage{
+  background-image: url('assets/images/Love_Front.jpg');
+  background-size: cover;
+  background-position: center;
+}
