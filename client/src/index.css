@@ -26,8 +26,3 @@ body {
   font-family: "Inter", sans-serif;
   background: #FDF2F8;
 }
-#HomebgImage{
-  background-image: url('assets/images/Love_Front.jpg');
-  background-size: cover;
-  background-position: center;
-}
