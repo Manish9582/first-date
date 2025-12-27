@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeartIcon = () => {
+const HeartIconComp = () => {
     return (
         <div>
             <a href='/' className='flex items-center'>
@@ -16,4 +16,4 @@ const HeartIcon = () => {
     )
 }
 
-export default HeartIcon
+export default HeartIconComp

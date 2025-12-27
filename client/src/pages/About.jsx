@@ -1,8 +1,15 @@
-import React from 'react'
+import BeachviewComp from "../components/common/BeachviewComp"
+import ChatuiComp from "../components/common/ChatuiComp"
+import DatingUiComp from "../components/common/DatingUiComp"
+
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <BeachviewComp />
+      <DatingUiComp />
+      <ChatuiComp />
+    </div>
   )
 }
 

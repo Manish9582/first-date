@@ -1,7 +1,6 @@
-import React from 'react'
-import HeartIcon from '../common/HeartIcon'
 import ButtonComp from '../common/ButtonComp'
 import { Link } from 'react-router-dom'
+import HeartIconComp from '../common/HeartIconComp'
 
 
 const Footer = () => {
@@ -62,7 +61,7 @@ const Footer = () => {
                             <strong className='text-4xl'>Are You For In The Gossipe ?</strong>
                         </div>
                         <div>
-                            <HeartIcon />
+                            <HeartIconComp />
                         </div>
                         <p className='font-semibold text-gray-500 text-[14px] mt-3'>
                             This site is for individuals who live alone and are looking for meaningful ways to spend their time.

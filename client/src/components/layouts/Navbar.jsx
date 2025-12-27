@@ -1,14 +1,14 @@
 import { NavLink } from 'react-router-dom'
 import { BsFillSearchHeartFill } from "react-icons/bs";
 import { useState } from 'react';
-import HeartIcon from '../common/HeartIcon';
+import HeartIconComp from '../common/HeartIconComp';
 
 const Navbar = () => {
   let NavList = [
     {
       id: 1,
       title: 'Home',
-      url: '/home'
+      url: '/'
     }, {
       id: 2,
       title: 'Community',
@@ -20,7 +20,7 @@ const Navbar = () => {
     }, {
       id: 4,
       title: 'Blog',
-      url: '/blog'
+      url: '/blogs'
     }, {
       id: 5,
       title: 'News',
@@ -33,7 +33,7 @@ const Navbar = () => {
     <div className='bg-white shadow-lg p-4'>
       <div className='max-w-[1400px] mx-auto lg:grid grid-cols-12'>
         <div className='col-start-1 col-end-1'>
-          <HeartIcon />
+          <HeartIconComp />
         </div>
 
         <div className=' col-start-8 relative col-end-13  lg:flex items-center justify-between font-sans font-semibold text-[16px] text-gray-800'>
