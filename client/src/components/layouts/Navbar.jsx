@@ -18,13 +18,13 @@ const Navbar = () => {
       title: 'About',
       url: '/about'
     }, {
+      id: 5,
+      title: 'Study Time',
+      url: '/study-time'
+    }, {
       id: 4,
       title: 'Blog',
       url: '/blogs'
-    }, {
-      id: 5,
-      title: 'News',
-      url: '/daily-news'
     }
   ]
 
